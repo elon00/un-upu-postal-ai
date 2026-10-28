@@ -1,0 +1,13 @@
+[package]
+name = "un_upu_postal_ai"
+version = "0.1.0"
+edition = "2021"
+description = "UPU PostTrace AI: Universal Postal Clearing System, Cross-Border Terminal Dues Settlement and Global Package Integrity"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
